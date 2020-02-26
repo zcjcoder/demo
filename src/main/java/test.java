@@ -11,8 +11,8 @@ public class test {
         enhancer.setCallback(new MyMethodInterceptor());
 
         HelloService proxy= (HelloService) enhancer.create();
-        proxy.sayHello();
-        proxy.ok();
+//        proxy.sayHello();
+//        proxy.ok();
     }
 
     @Test
